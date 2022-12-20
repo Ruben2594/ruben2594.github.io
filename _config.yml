@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "rubengonzalez.io"
+title                    : "rubengonzalez"
 title_separator          : "-"
 name                     : "Rubén González"
 description              : "Posts about security, CTFs and networking"
-url                      : "https://rubengonzalez.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://ruben2594.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Ruben2594/rubengonzalez.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Ruben2594/rubengonzalez" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : #"/assets/images/masthead.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
@@ -117,7 +117,7 @@ author:
   github           : "Ruben2594"
   gitlab           :
   google_plus      :
-  keybase          : "rubengonzalez"
+  keybase          : #"rubengonzalez"
   instagram        :
   lastfm           :
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
