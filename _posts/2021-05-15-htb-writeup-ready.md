@@ -5,9 +5,9 @@ excerpt: "Ready was a pretty straighforward box to get an initial shell on: We i
 date: 2021-05-15
 classes: wide
 header:
-  teaser: rubengonzalez/assets/images/ready_logo.png
+  teaser: /assets/images/ready_logo.png
   teaser_home_page: true
-  icon: rubengonzalez/assets/images/hackthebox.webp
+  icon: /assets/images/hackthebox.webp
 categories:
   - hackthebox
   - infosec
