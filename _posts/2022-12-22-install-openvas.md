@@ -5,9 +5,9 @@ excerpt: "OpenVAS es un escáner de vulnerabilidades con todas las funciones. Su
 date: 2022-12-20
 classes: wide
 header:
-  teaser: /assets/images/openvas/openvas.png
+  teaser: rubengonzalez/assets/images/openvas/openvas.png
   teaser_home_page: true
-  icon: /assets/images/hackthebox.webp
+  icon: rubengonzalez/assets/images/hackthebox.webp
 categories:
   - hackthebox
   - infosec
