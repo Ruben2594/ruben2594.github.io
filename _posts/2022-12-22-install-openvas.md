@@ -6,6 +6,7 @@ date: 2022-12-20
 classes: wide
 header:
   teaser: /assets/images/openvas/openvas.png
+  teaser_home_page: true
 categories:
   - hackthebox
   - infosec
