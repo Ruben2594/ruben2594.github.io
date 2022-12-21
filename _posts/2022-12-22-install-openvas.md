@@ -6,7 +6,7 @@ date: 2022-12-20
 classes: wide
 header:
   teaser: rubengonzalez/assets/images/openvas/openvas.png
-  teaser_home_page: true
+  teaser_home_page: false
   icon: rubengonzalez/assets/images/hackthebox.webp
 categories:
   - hackthebox
