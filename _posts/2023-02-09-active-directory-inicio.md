@@ -5,7 +5,7 @@ excerpt: "Mis inicio con Active Directory (AD) donde describo mi experiencia de 
 date: 2023-02-09
 classes: wide
 header:
-  teaser: /assets/images/monografia/monografia.png
+  teaser: /assets/images/active-directory/active-directory-logo.png
   teaser_home_page: true
 categories:
   - Investigación
@@ -14,7 +14,7 @@ tags:
   - activedirectory
 ---
 
-![](/assets/images/monografia/monografia.png)
+![](/assets/images/active-directory/active-directory-logo.png)
 
 # **¿Como iniciar en Active Directory (AD)? - Mi Camino**
 

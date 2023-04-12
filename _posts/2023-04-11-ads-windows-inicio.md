@@ -37,23 +37,26 @@ Para crear un ADS legitimo sigamos los siguientes pasos:
 > 1. Abrir el CMD (command prompt) o línea de comandos de Windows.
 En la línea de comando del CMD debemos crear una carpeta llamada “ejemplo”, para esto utilicemos el comando `mkdir ejemplo`. Nos movemos a dentro de la carpeta con el comando `cd ejemplo`.
 >2. Creamos un archivo llamado nota.txt con el texto “texto para el documento txt” y ADS llamado “holaADS”, haciendo uso del CMD de la siguiente manera `echo "texto para el documento txt" > nota.txt:holaADS`
->3. Fin, con esto tenemos un ADS según la utilidad “1. almacenamiento de metadatos” de la lista anterior.
+>3. Fin, con esto tenemos un ADS según la utilidad “1. almacenamiento de metadatos” de la lista anterior. <br>
 
 ![](/assets/images/windows/ads-windows-001.png)
 <br>
 
 ## **3-Visualización del ADS**
-Intentemos visualizar el ADS con el comando `dir`. Al parecer no nos muestra nada en particular ni sospechoso.
+Intentemos visualizar el ADS con el comando `dir`. Al parecer no nos muestra nada en particular ni sospechoso.<br>
 ![](/assets/images/windows/ads-windows-002.png)
 
 En cambio, si utilizamos el comando `dir /r` nos muestra que el ADS tiene 32 bytes, sin embargo, el archivo nota.txt tiene 0 byte, ya que en este no hemos escrito nada.
 > El comando "dir /r" en Windows muestra una lista de archivos y directorios en la ubicación actual, incluyendo la información de la secuencia de datos alternativos (ADS) asociada con cada archivo. El modificador "/r" significa "mostrar secuencias de datos alternativos" y es útil para identificar y ver información adicional asociada con los archivos.
 
+<br>
 ![](/assets/images/windows/ads-windows-003.png)
-
+<br>
 En esta fase aún no vemos la cadena de texto introducida en el ADS, para esto utilizaremos powershell con la función `get-item` y `get-content`.<br>
 >1. La función "Get-Item" es un cmdlet de PowerShell que se utiliza para recuperar información sobre un elemento específico en un sistema de archivos. La función se utiliza comúnmente para recuperar información de un archivo, un directorio, una clave de registro, un valor de registro, etc.
 >2. En PowerShell, "Get-Content" es un cmdlet que se utiliza para leer el contenido de un archivo de texto y devolver su contenido como una serie de objetos de cadena. Es uno de los cmdlets más utilizados en PowerShell para trabajar con archivos de texto y puede ser utilizado para leer y procesar archivos de cualquier tamaño.
+
+<br>
 ![](/assets/images/windows/ads-windows-004.png)
 <br>
 
@@ -61,8 +64,9 @@ En esta fase aún no vemos la cadena de texto introducida en el ADS, para esto u
 Podemos hacer uso de dos (2) comandos:
 >1. `Clear-Content nota.txt -Stream holaAD`, este comando elimina los datos **asociados** con el ADS.
 >2. `Remove-Item nota.txt -Stream holaADS`, eliminar la secuencia **por completo** usando este comando. 
-![](/assets/images/windows/ads-windows-005.png)
 
+<br>
+![](/assets/images/windows/ads-windows-005.png)
 <br>
 
 > Existen varias medidas que puedes tomar para protegerte del uso malicioso de secuencias de datos alternativas (ADS). Algunas de ellas son:
